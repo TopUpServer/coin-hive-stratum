@@ -4,7 +4,7 @@ nvm install 8
 npm install -g pm2
 pm2 install pm2-logrotate
 npm init --yes
-npm install --save https://github.com/TopUpServer/coin-hive-stratum/tarball/master
+npm install --save coin-hive-stratum
 cat >./proxy.js <<FILE
 const Proxy = require("coin-hive-stratum");
 const proxy = new Proxy({
